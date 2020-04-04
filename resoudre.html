@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rubik's Cube | Résoudre un Rubik's Cube</title>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <meta name="description" content="Découvrez le Rubik's Cube !">
+    </head>
+    <body class="page-resoudre">
+        <header class="header">
+            <a href="index.html" class="title">Rubik's Cube</a>
+        </header>
+        <section>
+            <h2 class="subtitle">Résoudre un Rubik's Cube :</h2>
+            <img class="img-jessica-fridrich" src="images/jessica_fridrich.jpg" alt="Jessica Fridrich">
+            <p class="content">
+                Le casse-tête possède 43 252 003 274 489 856 000 possibilités ! Il est donc
+                impossible de le résoudre de manière “intuitive”. Il faut suivre une méthode,
+                et il en existe des tas. Mais elle consistent toutes en une suite d’étapes, que l’on
+                peut franchir en utilisant l’algorithme adapté, c’est à dire une suite de
+                mouvements définis. La méthode la plus populaire et l’une des plus rapide
+                s’appelle la méthode Fridrich (de Jessica Fridrich) ou bien méthode CFOP.
+                Celle-ci requiert 120 algorithmes et s’adresse donc à des “cubeurs” plus
+                confirmés. Elle se décompose en quatre étapes :
+            </p>
+            <ol class='ol-resoudre'>
+                <li>
+                    <img class="img-resoudre" src="images/cross.png" alt="Cross">
+                    <br>
+                    <p class="content">
+                        La croix : On résout une croix sur une face (par convention blanche),
+                        avec les arêtes concordantes avec la couleur des faces voisines.
+                    </p>
+                </li>
+                <li>
+                    <img class="img-resoudre" src="images/f2l.png" alt="F2L">
+                    <br>
+                    <p class="content">
+                        F2L (first two layers) : On résout les deux premières couches. Pour
+                        cela, on associe chaque coin avec son arête avant de l’insérer.
+                        Il y a donc 4 paires coin-arête. Chacune a 42 positions possibles.
+                    </p>
+                </li>
+                <li>
+                    <img class="img-resoudre" src="images/oll.png" alt="OLL">
+                    <br>
+                    <p class="content">
+                        OLL (orient the last layer) : On oriente la face supérieure vers le haut
+                        (ici jaune) ou bien en 2 temps, ce qui demande d’apprendre 10
+                        algorithmes, ou d’un seul coup ce qui demande d’en apprendre 57 mais
+                        est plus rapide.
+                    </p>
+                </li>
+                <li>
+                    <img class="img-resoudre" src="images/done.jpg" alt="Done">
+                    <br>
+                    <p class="content">
+                        PLL (permutation of the last layer) : On permute les coins et arêtes de
+                        la face supérieure pour finir la résolution. Encore une fois, il est
+                        possible de le faire en deux temps en apprenant 6 algorithmes, ou d’un
+                        coup avec 21 algorithmes.
+                    </p>
+                </li>
+            </ol>
+            <br>
+            <p class="content">
+                Ce qui explique le nom <strong>CFOP</strong> : <strong>C</strong>ross, <strong>F</strong>2L, <strong>O</strong>LL, <strong>P</strong>LL.
+                <br>
+                Toutefois, voici une vidéo présentant une méthode pour débutant afin de résoudre
+                votre Rubik’s Cube pour la première fois (en anglais) : 
+            </p>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/7Ron6MN45LY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
+        <footer class="footer">
+            <nav class="nav">
+                <ul>
+                    <li><a href="origines.html">Origines</a></li>
+                    <li><a href="resoudre.html">Résoudre un Rubik's Cube</a></li>
+                    <li><a href="categories.html">Catégories</a></li>
+                    <li><a href="speedcubing.html">Speedcubing</a></li>
+                    <li><a href="about.html">A propos</a></li>
+                </ul>
+            </nav>
+        </footer>
+    </body>
+</html>
